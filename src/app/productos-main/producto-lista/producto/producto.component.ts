@@ -1,13 +1,13 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Producto } from 'src/app/producto';
+import { Producto } from '../../../producto';
 import { MatDialog } from '@angular/material';
-import { ModalConfirmComponent } from 'src/app/modal-confirm/modal-confirm.component';
-import { ProductoService } from 'src/app/producto.service';
-import { ConfirmBorradoComponent } from 'src/app/confirm-borrado/confirm-borrado.component';
+import { ModalConfirmComponent } from '../../../modal-confirm/modal-confirm.component';
+import { ProductoService } from '../../../producto.service';
+import { ConfirmBorradoComponent } from '../../../confirm-borrado/confirm-borrado.component';
 import { ProductoListaComponent } from '../producto-lista.component';
-import { ProductoEditComponent } from 'src/app/producto-edit/producto-edit.component';
-import { ConfirmChangeComponent } from 'src/app/confirm-change/confirm-change.component';
-import { ErrorMessageComponent } from 'src/app/error-message/error-message.component';
+import { ProductoEditComponent } from '../../../producto-edit/producto-edit.component';
+import { ConfirmChangeComponent } from '../../../confirm-change/confirm-change.component';
+import { ErrorMessageComponent } from '../../../error-message/error-message.component';
 
 
 

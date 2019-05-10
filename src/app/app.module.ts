@@ -10,7 +10,6 @@ import { ProductoEditComponent } from './producto-edit/producto-edit.component';
 import { ProductoComponent } from './productos-main/producto-lista/producto/producto.component';
 import { ProductoListaComponent } from './productos-main/producto-lista/producto-lista.component';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { PaginatorComponent } from './paginator/paginator.component';
 import { Ng2PaginationModule } from 'ng2-pagination';
 import { Routes, RouterModule } from '@angular/router';
 import {MatDialogModule} from '@angular/material/dialog';
@@ -34,7 +33,6 @@ import { TiendaItemComponent } from './tienda-main/tienda-lista/tienda-item/tien
     ProductoListaComponent,
     ProductoDetalleComponent,
     ProductoEditComponent,
-    PaginatorComponent,
     ModalConfirmComponent,
     ConfirmBorradoComponent,
     HeaderComponent,

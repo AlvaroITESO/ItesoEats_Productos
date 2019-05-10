@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductoService } from 'src/app/producto.service';
+import { ProductoService } from '../../producto.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { MatDialog } from '@angular/material';
 import { Subscription } from 'rxjs';
-import { Tienda } from 'src/app/tienda';
-import { TiendaService } from 'src/app/tienda.service';
+import { Tienda } from '../../tienda';
+import { TiendaService } from '../../tienda.service';
 
 @Component({
   selector: 'app-tienda-lista',

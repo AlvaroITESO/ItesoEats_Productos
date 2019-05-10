@@ -1,12 +1,10 @@
 import { Component, OnInit, SimpleChanges } from '@angular/core';
-import { Producto } from 'src/app/producto';
+import { Producto } from '../../producto';
 import { Subscription } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
-import { ProductoService } from 'src/app/producto.service';
-import {Ng2PaginationModule} from 'ng2-pagination';
-import { ModalConfirmComponent } from 'src/app/modal-confirm/modal-confirm.component';
 import { MatDialog } from '@angular/material';
-import { ProductoCrearComponent } from 'src/app/producto-crear/producto-crear.component';
+import { ProductoCrearComponent } from '../../producto-crear/producto-crear.component';
+import { ProductoService } from '../../producto.service';
 
 
 @Component({
